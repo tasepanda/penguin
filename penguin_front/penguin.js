@@ -1,6 +1,5 @@
-const button1 = document.getElementById("addBtn");
-const refresh = document.getElementById("refresh");
-const refresh = document.getElementById("subtitle");
+const button1 = document.getElementById("titleSubmit");
+const refresh = document.getElementById("answerSubmit");
 
 button.addEventListener("click", async function(){
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
